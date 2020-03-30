@@ -8,3 +8,5 @@ typings/
 node_modules/
 src/serviceAccountKey.json
 lib/serviceAccountKey.json
+package-lock.json
+../package-lock.json
