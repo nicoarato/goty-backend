@@ -26,6 +26,6 @@ const db = admin.firestore();
     const docsSnap = await gotyRef.get();
     const juegos = docsSnap.docs.map( doc => doc.data());
    
-    response.json( juegos);
+    response.json( juegos); 
       
  });
